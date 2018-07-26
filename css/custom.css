@@ -66,6 +66,14 @@ a:focus, a:hover {
     color: rgb(255, 103, 28);
 }
 
+.text-primary {
+    color: #8a8a8a;
+}
+
+.text-warning {
+    color: #8a8a8a;
+}
+
 /* Front Page */
 
 section#home-banner h2 {
@@ -195,6 +203,19 @@ ul.top-nav>li.primary-action>a.btn {
     color: #ff671c !important;
 }
 
+#order-standard_cart .domain-checker-invalid, #order-standard_cart .domain-checker-unavailable {
+    color: #ff671c !important;
+}
+
+.domain-checker-container {
+    background-color: #f8f8f8 !important;
+    background: -webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#f8f8f8));
+    background: -webkit-linear-gradient(top,#f8f8f8,#f8f8f8);
+    background: -moz-linear-gradient(top,#f8f8f8,#f8f8f8);
+    background: -ms-linear-gradient(top,#f8f8f8,#f8f8f8);
+    background: -o-linear-gradient(top,#f8f8f8,#f8f8f8);
+}
+
 /* Buttons */
 
 .btn-primary {
@@ -206,6 +227,13 @@ ul.top-nav>li.primary-action>a.btn {
 .btn-info {
     color: #fff;
     background-color: #ff671c !important;
+    border-color: #777777;
+    border-width: 2px;
+}
+
+.btn-warning {
+    color: #fff;
+   background-color: #ff671c !important;
     border-color: #777777;
     border-width: 2px;
 }
@@ -260,4 +288,8 @@ ul.top-nav>li.primary-action>a.btn {
 a.list-group-item.active, a.list-group-item.active:focus, a.list-group-item.active:hover {
     background-color: #777777;
     border-color: #777777;
+}
+
+.list-group-item.active>.badge, .nav-pills>.active>a>.badge {
+    color: #ff671c;
 }
