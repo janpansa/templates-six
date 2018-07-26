@@ -89,13 +89,7 @@
                 </li>
             {/if}
         </ul>
-
-        {if $assetLogoPath}
-            <a href="{$WEB_ROOT}/index.php" class="logo"><img src="{$assetLogoPath}" alt="{$companyname}"></a>
-        {else}
-            <a href="{$WEB_ROOT}/index.php" class="logo logo-text">{$companyname}</a>
-        {/if}
-
+            <a href="{$WEB_ROOT}/index.php" class="logo"><img src="/img/logo.png" alt="{$companyname}"></a>
     </div>
 </section>
 
