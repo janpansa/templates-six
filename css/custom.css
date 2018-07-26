@@ -54,6 +54,18 @@ div.header-lined .breadcrumb>.active {
     font-weight: bold;
 }
 
+.navbar-main li.account {
+    background-color: #ffffff;
+}
+
+.navbar-main li.account a {
+    color: #8a8a8a;
+}
+
+a:focus, a:hover {
+    color: rgb(255, 103, 28);
+}
+
 /* Front Page */
 
 section#home-banner h2 {
@@ -152,13 +164,40 @@ ul.top-nav>li.primary-action>a.btn {
 }
 
 #order-standard_cart .view-cart-items-header {
-    background-color: #ff671c;
+    background-color: #ff671c !important;
+}
+
+#order-standard_cart .empty-cart .btn {
+    background-color: #ff671c !important;
+}
+
+#order-standard_cart .view-cart-items {
+    border-bottom: 2px solid #ff671c !important;
+}
+
+#order-standard_cart .sub-heading span, #order-standard_cart .sub-heading-borderless span {
+    color: #ff671c !important;
 }
 
 /* Buttons */
 
 .btn-primary {
     color: #fff;
-    background-color: #ff671c;
+    background-color: #ff671c !important;
     border-color: #777777;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #ff671c !important;
+    border-color: #777777;
+    border-width: 2px;
+}
+
+.btn-link {
+    color: #666666;
+}
+
+.label-info {
+    background-color: #ff671c !important;
 }
