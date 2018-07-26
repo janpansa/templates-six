@@ -205,6 +205,7 @@ ul.top-nav>li.primary-action>a.btn {
 
 #order-standard_cart .domain-checker-invalid, #order-standard_cart .domain-checker-unavailable {
     color: #ff671c !important;
+    font-size: 32px;
 }
 
 .domain-checker-container {
@@ -216,12 +217,17 @@ ul.top-nav>li.primary-action>a.btn {
     background: -o-linear-gradient(top,#f8f8f8,#f8f8f8);
 }
 
+.domain-checker-bg {
+    background-image: none;
+}
+
 /* Buttons */
 
 .btn-primary {
     color: #fff;
     background-color: #ff671c !important;
     border-color: #777777;
+    border-width: 2px;
 }
 
 .btn-info {
