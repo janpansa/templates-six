@@ -4,6 +4,8 @@
     <meta charset="{$charset}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="http://webbest.co.za/assets/css/app.css" />
     <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title>
 
     {include file="$template/includes/head.tpl"}
@@ -14,6 +16,83 @@
 <body data-phone-cc-input="{$phoneNumberInputStyle}">
 
 {$headeroutput}
+
+<!-- PRIMARY NAVIGATION -->
+
+<nav>
+<div id="navigation">
+  <!-- Landscape -->
+  <div class="grid-container show-for-landscape">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-3">
+      <a href="#" class="site-email">{{ site.email }}</a>
+      <div class="float-right hide-for-medium" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"></div>
+      </div>
+    </div>
+    <div class="cell small-12 medium-9">
+      <!-- Desktop menu -->
+      <div class="show-for-medium float-right">
+        <ul class="menu">
+          <li><a href="https://webbest.co.za/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+          <li><a href="https://webbest.co.za/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+          <li><a href="https://webbest.co.za/services/" {% if page.url == "/services/" %}class="active"{% endif %}>Services</a></li>
+          <li><a href="https://webbest.co.za/blog/" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
+          <li><a href="https://webbest.co.za/showcase/" {% if page.url == "/showcase/" %}class="active"{% endif %}>Showcase</a></li>
+          <li><a target="_blank" href="https://webbest.zendesk.com/hc/en-us">Support</a></li>
+          <li><a href="https://webbest.co.za/contact-us/" {% if page.url == "/contact-us/" %}class="active"{% endif %}>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- Portrait -->
+<div class="grid-container show-for-portrait">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-12">
+      <a href="#" class="site-email">{{ site.email }}</a>
+      <div class="float-right" data-responsive-toggle="responsive-menu" data-hide-for="xlarge">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"></div>
+      </div>
+    </div>
+    <div class="cell small-12 medium-12">
+      
+      <!-- Mobile menu -->
+      <div id="responsive-menu">
+        <div>
+          <ul class="menu vertical" data-dropdown-menu>
+            <li><a href="https://webbest.co.za/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+            <li><a href="https://webbest.co.za/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+            <li><a href="https://webbest.co.za/services/" {% if page.url == "/services/" %}class="active"{% endif %}>Services</a></li>
+            <li><a href="https://webbest.co.za/blog/" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
+            <li><a href="https://webbest.co.za/showcase/" {% if page.url == "/showcase/" %}class="active"{% endif %}>Showcase</a></li>
+            <li><a target="_blank" href="https://webbest.zendesk.com/hc/en-us">Support</a></li>
+            <li><a href="https://webbest.co.za/contact-us/" {% if page.url == "/contact-us/" %}class="active"{% endif %}>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</nav>
+
+<div id="header">
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x">
+      <div class="cell small-12 large-2">
+        <a href="/"><img src="http://webbest.co.za/assets/images/logo.png" alt="logo" class="logo float-center"></a>
+      </div>
+      <div class="cell small-12 large-10">
+        <p class="text-center slogan">{{ site.slogan }}</p>
+      </div>
+    </div>
+ </div>
+</div>
+
 
 <section id="header">
     <div class="container">
