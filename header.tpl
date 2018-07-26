@@ -89,7 +89,7 @@
                 </li>
             {/if}
         </ul>
-            <a href="{$WEB_ROOT}/index.php" class="logo"><img src="/img/logo.png" alt="{$companyname}"></a>
+            <a href="{$WEB_ROOT}/index.php" class="logo"><img src="{$WEB_ROOT}/img/logo.png" alt="{$companyname}"></a>
     </div>
 </section>
 
