@@ -61,8 +61,14 @@ section#header {
     border-bottom: 2px solid #efefef;
 }
 
-#default-captcha-domainchecker {
+section#header #default-captcha-domainchecker {
     text-shadow: 1px 1px 1px #000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff671c;
+    border-color: #777777;
 }
 
 a {
