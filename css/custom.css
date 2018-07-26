@@ -8,12 +8,15 @@
 ***************************************************** */
 
 /* 
+Primary Colors
 
 $theme-col-1: rgb(255, 103, 28);
 $theme-col-2: #4D4D4D;
 $theme-col-3: #404040;
 
 */
+
+/* Default styling */
 
 body {
     color: #8a8a8a;
@@ -37,6 +40,13 @@ h2 {
   font-size: 26px;
 }
 
+a {
+    color: rgb(255, 103, 28);
+    text-decoration: none;
+}
+
+/* Front Page */
+
 section#home-banner h2 {
     color: rgb(255, 103, 28);
     font-size: 26px;
@@ -56,22 +66,6 @@ section#home-banner {
     
 }
 
-.irs-line-left {
-    background: #ff945f !important;
-}
-
-.irs-line-mid {
-    background: #ff945f !important;
-}
-
-.irs-line-right {
-    background: #ff945f !important;
-}
-
-.irs-line-last {
-    background: #ff945f !important;
-}
-
 .wb-overlay {
     background: url(http://webbest.co.za/assets/images/banners/webbest_hero_banner.png) center;
     background-size: cover;
@@ -85,15 +79,25 @@ section#header #default-captcha-domainchecker {
     text-shadow: 1px 1px 1px #000;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #ff671c;
-    border-color: #777777;
+.lead {
+    font-weight: 400;
 }
 
-a {
-    color: rgb(255, 103, 28);
-    text-decoration: none;
+div.tweet>i {
+    color: #8a8a8a;
+    float: left;
+    margin-right: 15px;
+}
+
+.home-shortcuts {
+    background: #ff671e;
+}
+
+.home-shortcuts li:first-child {
+    border-left: 1px solid #ffffff;
+}
+.home-shortcuts li {
+    border-right: 1px solid #ffffff;
 }
 
 /* Navbar */
@@ -120,23 +124,28 @@ ul.top-nav>li.primary-action>a.btn {
     border-radius: 8px;
 }
 
-.lead {
-    font-weight: 400;
+/* Progress Bar on Cart section */
+
+.irs-line-left {
+    background: #ff945f !important;
 }
 
-div.tweet>i {
-    color: #8a8a8a;
-    float: left;
-    margin-right: 15px;
+.irs-line-mid {
+    background: #ff945f !important;
 }
 
-.home-shortcuts {
-    background: #ff671e;
+.irs-line-right {
+    background: #ff945f !important;
 }
 
-.home-shortcuts li:first-child {
-    border-left: 1px solid #ffffff;
+.irs-line-last {
+    background: #ff945f !important;
 }
-.home-shortcuts li {
-    border-right: 1px solid #ffffff;
+
+/* Buttons */
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff671c;
+    border-color: #777777;
 }
