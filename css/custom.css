@@ -37,6 +37,11 @@ h2 {
   font-size: 26px;
 }
 
+a {
+    color: rgb(255, 103, 28);
+    text-decoration: none;
+}
+
 /* Navbar */
 
 .navbar-default .navbar-nav>li>a {
@@ -59,4 +64,15 @@ h2 {
     color: #fff;
     border: 2px solid #8a8a8a;
     border-radius: 8px;
+}
+
+.home-shortcuts {
+    background: #ff671e;
+}
+
+.home-shortcuts li:first-child {
+    border-left: 1px solid #ffffff;
+}
+.home-shortcuts li {
+    border-right: 1px solid #ffffff;
 }
