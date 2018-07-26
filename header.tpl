@@ -143,7 +143,7 @@
                                 <input type="text" class="form-control" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" />
                                 <span class="input-group-btn">
                                     {if $registerdomainenabled}
-                                        <input type="submit" class="btn search" value="{$LANG.search}" />
+                                <button type="submit" class="btn search" value="{$LANG.search}"><i class="fas fa-search"></i>&nbsp;{$LANG.search}</button>
                                     {/if}
                                     {if $transferdomainenabled}
                                         <input type="submit" name="transfer" class="btn transfer" value="{$LANG.domainstransfer}" />
