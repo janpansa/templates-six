@@ -140,7 +140,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                             <div class="input-group input-group-lg">
-                                <input type="text" class="form-control" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" />
+                                <input type="text" class="form-control" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" autofocus/>
                                 <span class="input-group-btn">
                                     {if $registerdomainenabled}
                                 <button type="submit" class="btn search" value="{$LANG.search}"><i class="fas fa-search"></i>&nbsp;{$LANG.search}</button>
@@ -152,7 +152,6 @@
                             </div>
                         </div>
                     </div>
-
                     {include file="$template/includes/captcha.tpl"}
                 </form>
             {else}
