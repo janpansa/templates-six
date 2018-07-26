@@ -56,9 +56,18 @@ section#home-banner {
     
 }
 
-.irs-line-left, 
-.irs-line-mid, 
-.irs-line-right, 
+.irs-line-left {
+    background: #ff945f;
+}
+
+.irs-line-mid {
+    background: #ff945f;
+}
+
+.irs-line-right {
+    background: #ff945f;
+}
+
 .irs-line-last {
     background: #ff945f;
 }
