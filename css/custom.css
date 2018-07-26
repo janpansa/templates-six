@@ -37,6 +37,26 @@ h2 {
   font-size: 26px;
 }
 
+section#home-banner h2 {
+    color: rgb(255, 103, 28);
+    font-size: 26px;
+    color: #fefefe;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: none;
+    text-shadow: 0px 1px 1px #000000;
+}
+
+section#home-banner {
+    margin: 0;
+    padding: 70px 0 70px;
+    background-color: #8a8a8a;
+    color: #fff;
+    position: relative;
+    background: url(http://webbest.co.za/assets/images/banners/webbest_hero_banner.png) center;
+    background-size: cover;
+}
+
 a {
     color: rgb(255, 103, 28);
     text-decoration: none;
@@ -68,6 +88,12 @@ ul.top-nav>li.primary-action>a.btn {
 
 .lead {
     font-weight: 400;
+}
+
+div.tweet>i {
+    color: #8a8a8a;
+    float: left;
+    margin-right: 15px;
 }
 
 .home-shortcuts {
