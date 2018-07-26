@@ -15,6 +15,69 @@
 
 {$headeroutput}
 
+<!-- PRIMARY NAVIGATION -->
+
+<nav>
+<div id="navigation">
+  <!-- Landscape -->
+  <div class="grid-container show-for-landscape">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-3">
+      <a href="#" class="site-email">info@webbest.co.za</a>
+      <div class="float-right hide-for-medium" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"></div>
+      </div>
+    </div>
+    <div class="cell small-12 medium-9">
+      <!-- Desktop menu -->
+      <div class="show-for-medium float-right">
+        <ul class="menu">
+          <li><a href="https://webbest.co.za/" >Home</a></li>
+          <li><a href="https://webbest.co.za/about/" >About</a></li>
+          <li><a href="https://webbest.co.za/services/">Services</a></li>
+          <li><a href="https://webbest.co.za/blog/" >Blog</a></li>
+          <li><a href="https://webbest.co.za/showcase/">Showcase</a></li>
+          <li><a target="_blank" href="https://webbest.zendesk.com/hc/en-us">Support</a></li>
+          <li><a href="https://webbest.co.za/contact-us/" >Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- Portrait -->
+<div class="grid-container show-for-portrait">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-12">
+      <a href="#" class="site-email">info@webbest.co.za</a>
+      <div class="float-right" data-responsive-toggle="responsive-menu" data-hide-for="xlarge">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"></div>
+      </div>
+    </div>
+    <div class="cell small-12 medium-12">
+      
+      <!-- Mobile menu -->
+      <div id="responsive-menu">
+        <div>
+          <ul class="menu vertical" data-dropdown-menu>
+            <li><a href="https://webbest.co.za/">Home</a></li>
+            <li><a href="https://webbest.co.za/about/">About</a></li>
+            <li><a href="https://webbest.co.za/services/">Services</a></li>
+            <li><a href="https://webbest.co.za/blog/">Blog</a></li>
+            <li><a href="https://webbest.co.za/showcase/">Showcase</a></li>
+            <li><a target="_blank" href="https://webbest.zendesk.com/hc/en-us">Support</a></li>
+            <li><a href="https://webbest.co.za/contact-us/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</nav>
+
 <section id="header">
     <div class="container">
         <ul class="top-nav">
