@@ -35,10 +35,6 @@ h1 {
   margin: 0;
 }
 
-div.header-lined h1 {
-    color: #777;
-}
-
 h2 {
   color: rgb(255, 103, 28);
   font-size: 26px;
@@ -47,6 +43,15 @@ h2 {
 a {
     color: rgb(255, 103, 28);
     text-decoration: none;
+}
+
+div.header-lined h1 {
+    color: #777;
+}
+
+div.header-lined .breadcrumb>.active {
+    color: #777;
+    font-weight: bold;
 }
 
 /* Front Page */
