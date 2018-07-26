@@ -57,19 +57,19 @@ section#home-banner {
 }
 
 .irs-line-left {
-    background: #ff945f;
+    background: #ff945f !important;
 }
 
 .irs-line-mid {
-    background: #ff945f;
+    background: #ff945f !important;
 }
 
 .irs-line-right {
-    background: #ff945f;
+    background: #ff945f !important;
 }
 
 .irs-line-last {
-    background: #ff945f;
+    background: #ff945f !important;
 }
 
 .wb-overlay {
