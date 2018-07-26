@@ -50,9 +50,13 @@ section#home-banner h2 {
 section#home-banner {
     margin: 0;
     padding: 70px 0 70px;
-    background-color: #8a8a8a;
     color: #fff;
     position: relative;
+    background: rgba(50,50,50,0.35);
+    
+}
+
+.wb-overlay {
     background: url(http://webbest.co.za/assets/images/banners/webbest_hero_banner.png) center;
     background-size: cover;
 }
