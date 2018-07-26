@@ -131,6 +131,7 @@
 
 
 {if $templatefile == 'homepage'}
+<div class="wb-overlay">
     <section id="home-banner">
         <div class="container text-center">
             {if $registerdomainenabled || $transferdomainenabled}
@@ -159,6 +160,7 @@
             {/if}
         </div>
     </section>
+    </div>
     <div class="home-shortcuts">
         <div class="container">
             <div class="row">
