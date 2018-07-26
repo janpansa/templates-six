@@ -270,6 +270,10 @@ ul.top-nav>li.primary-action>a.btn {
     background-color: #ff671c;
 }
 
+section#home-banner .btn.search {
+    background-color: #ff671c;
+}
+
 /* Tables and Panels*/
 
 .dataTables_wrapper .dataTables_info {
