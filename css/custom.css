@@ -56,6 +56,13 @@ section#home-banner {
     
 }
 
+.irs-line-left, 
+.irs-line-mid, 
+.irs-line-right, 
+.irs-line-last {
+    background: #ff945f;
+}
+
 .wb-overlay {
     background: url(http://webbest.co.za/assets/images/banners/webbest_hero_banner.png) center;
     background-size: cover;
