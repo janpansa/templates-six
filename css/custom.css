@@ -35,6 +35,10 @@ h1 {
   margin: 0;
 }
 
+div.header-lined h1 {
+    color: #777;
+}
+
 h2 {
   color: rgb(255, 103, 28);
   font-size: 26px;
@@ -124,7 +128,7 @@ ul.top-nav>li.primary-action>a.btn {
     border-radius: 8px;
 }
 
-/* Progress Bar on Cart section */
+/* Cart section */
 
 .irs-line-left {
     background: #ff945f !important;
@@ -140,6 +144,10 @@ ul.top-nav>li.primary-action>a.btn {
 
 .irs-line-last {
     background: #ff945f !important;
+}
+
+#order-standard_cart .view-cart-items-header {
+    background-color: #ff671c;
 }
 
 /* Buttons */
