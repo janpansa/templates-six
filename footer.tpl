@@ -46,10 +46,6 @@
 </div>
 
 {$footeroutput}
-<script src="http://webbest.co.za/assets/js/all.js"></script>
-<script>
-      $(document).foundation();
-</script>
 
 </body>
 </html>
