@@ -132,6 +132,11 @@ div.tweet>i {
     font-family: Roboto;
 }
 
+.navbar-main li.account a {
+    color: #8a8a8a;
+    background-color: #fff;
+}
+
 .navbar-main .navbar-nav>.active>a,
 .navbar-main .navbar-nav>.active>a:focus,
 .navbar-main .navbar-nav>.active>a:hover,
