@@ -15,6 +15,41 @@
 
 {$headeroutput}
 
+<section id="main-menu">
+
+    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="primary-nav">
+
+                <ul class="nav navbar-nav">
+
+                    {include file="$template/includes/navbar.tpl" navbar=$primaryNavbar}
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    {include file="$template/includes/navbar.tpl" navbar=$secondaryNavbar}
+
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+</section>
+
 <section id="header">
     <div class="container">
         <ul class="top-nav">
@@ -93,40 +128,7 @@
     </div>
 </section>
 
-<section id="main-menu">
 
-    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="primary-nav">
-
-                <ul class="nav navbar-nav">
-
-                    {include file="$template/includes/navbar.tpl" navbar=$primaryNavbar}
-
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-
-                    {include file="$template/includes/navbar.tpl" navbar=$secondaryNavbar}
-
-                </ul>
-
-            </div><!-- /.navbar-collapse -->
-        </div>
-    </nav>
-
-</section>
 
 {if $templatefile == 'homepage'}
     <section id="home-banner">
