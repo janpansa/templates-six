@@ -57,6 +57,14 @@ section#home-banner {
     background-size: cover;
 }
 
+section#header {
+    border-bottom: 2px solid #efefef;
+}
+
+#default-captcha-domainchecker {
+    text-shadow: 1px 1px 1px #000;
+}
+
 a {
     color: rgb(255, 103, 28);
     text-decoration: none;
